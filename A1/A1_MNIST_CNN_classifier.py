@@ -14,6 +14,7 @@ from sklearn.metrics import confusion_matrix
 
 
 torch.manual_seed(1)
+torch.backends.cudnn.deterministic=True
 
 torch.cuda.set_device(0)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
