@@ -13,6 +13,8 @@ import torchvision.transforms as transforms
 from sklearn.metrics import confusion_matrix
 
 
+torch.manual_seed(1)
+
 torch.cuda.set_device(0)
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("device", torch.cuda.current_device(), torch.cuda.get_device_name(torch.cuda.current_device()))
