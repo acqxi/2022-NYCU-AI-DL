@@ -1,0 +1,31 @@
+{
+    "python.languageServer": "Pylance",
+    "python.linting.flake8Enabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Args": [
+        "--max-line-length=128",
+        "--ignore=W292,W503,E201,E202,E262,E265,F841,F401"
+    ],
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfPath": "yapf",
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{based_on_style: pep8, indent_width: 4, column_limit: 128}"
+    ],
+    "editor.rulers": [
+        128,
+    ],
+    "workbench.colorCustomizations": {
+        "editorRuler.foreground": "#ff4081"
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "python.pythonPath": "$pythonPath",
+    "python.analysis.extraPaths": [
+        "C:\\ProgramData\\Miniconda3\\envs\\MedSK"
+    ],
+    "python.linting.mypyEnabled": true,
+    "python.linting.enabled": true,
+}
