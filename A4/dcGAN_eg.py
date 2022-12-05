@@ -117,8 +117,6 @@ class Discriminator(nn.Module):
 
 
 # %%
-
-# %%
 # Loss function
 adversarial_loss = nn.BCELoss()
 
